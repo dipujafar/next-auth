@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <div>
       <h1>Authentication</h1>
-      <h1>{session?.data?.user?.type}</h1>
+      <h1>{session?.user?.type}</h1>
     </div>
   );
 }
